@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FAFAFA;
+}
+.container{
+    margin: 0px 150px;
+}
+
+/* #####################        common class   #####################     */
+.primary-btn{
+    color: #fff;
+    background-color: #FF5959;
+    font-weight: 500;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+.local-btn{
+    color: #FF5959;
+    border:2px solid #FF5959;
+    background-color: #FAFAFA;
+    font-weight: 500;                 
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* #####################        common class   #####################     */
+span{
+    color: #fcbdbd;
+}
+.hero-section{
+    background-image: url("./images/header-bg.png"),url("./images/header-bg-1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom right -80px;
+    background-size: 750px, 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+.hero-section-img{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin:  auto 0px;
+    margin-top: 143px;
+}
+.hero-section-text{
+    width: 40%;
+    line-height: 62px;
+}
+.hero-section-text h1{
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+.hero-section-text p{
+    width: 60%;
+    font-size: 20px;
+    word-spacing: 10px;
+    text-align: justify;
+    color: #978686;
+}
+.hero-section-img img{
+width: 495px;
+}
+
+/* second-sction  */
+
+.second-sction{
+    text-align: center;
+    max-width: 1000px;
+    margin: 100px auto 0px;
+}
+.second-text-area h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.second-text-area p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.second-section-flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.second-section-item{
+    background-color: #FAFAFA;
+    padding: 40px;
+    border-radius: 5px;
+}
+.second-section-item:hover{
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    cursor: pointer;
+    padding: 38px;
+}
+.second-text-area h5{
+    font-size: 22px;
+}
+.horizontal-rule{
+    height: 1px;
+    width: 90%;
+    background-color: #DADADA;
+    margin-top: 20px;
+    margin: 20px auto 0px;
+}
+.second-btn{
+    margin-top: 30px;
+}
+
+/* third section  */
+.third-section{
+    margin-top: 40px;
+}
+.third-section-text-area{
+    text-align: center;
+    margin: 40px 0px;
+}
+.third-section-text-area h2{
+    font-size: 42px;
+}
+.third-section-text-area p{
+    font-size: 18px;
+}
+.third-section-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 60%;
+}
+.third-sections{
+    margin: 0px 10px;
+    padding: 20px 30px;
+}
+.third-sections img{
+}
+.third-sections h4{
+   margin: 10px 0px;
+}
+.third-sections p{
+   font-size: 16px;
+   width: 90%;
+   text-align: justify;
+}
+.third-section-1{
+    background-color: rgba(79, 157, 166, 0.1);
+    width: 40%;
+}
+.third-section-2{
+    background-color: rgba(255, 89, 89, 0.1);
+    width: 40%;
+}
+.third-section-3{
+    background-color: #fff59d83;
+    width: 40%;
+}
+
+/* fourth section s */
+.fourth-section{
+    max-width: 1200px;
+    margin: 150px auto 0px;
+
+}
+.fourth-sction-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-text{
+    width: 50%;
+    padding: 0px 20px;
+}
+.fourth-text h1{
+    font-size: 42px;
+    font-weight: 900;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.fourth-text p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.fiveth-text{
+    margin-left: 50px;
+}
+.fiveth-text h1{
+    margin-left: 80px;
+}
+.fiveth-text p{
+    margin-left: 80px;
+}
+.fiveth-text button{
+    margin-left: 80px;
+}
+
+/* footer  */
+
+footer{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.footer-text{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.footer-text p{
+    display: block;
+}
+
+.input-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 40px 40px 40px;
+    background-color: #fff59d83;
+    padding: 70px 0px 70px 100px;
+}
+.input-area input{
+    background-color: #dadada;
+    border: none;
+    width: 250px;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+.second-footer img{
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+}
