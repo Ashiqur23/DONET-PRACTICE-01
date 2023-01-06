@@ -15,10 +15,17 @@ header{
     color: #fff;
     background-color: #FF5959;
     font-weight: 500;
-    padding: 10px 25px;
+    padding: 12px 27px;
     border: none;
     border-radius: 4px;
     cursor: pointer;  
+}
+.primary-btn:hover{
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    background-color: #FAFAFA;
+    padding: 10px 25px;
+      
 }
 .local-btn{
     color: #FF5959;
@@ -28,6 +35,11 @@ header{
     padding: 10px 25px;
     border-radius: 4px;
     cursor: pointer;
+}
+.local-btn:hover{
+    color: #ffffff;
+    background-color: #FF5959;
+    
 }
 /* #####################        common class   #####################     */
 span{
@@ -148,8 +160,7 @@ width: 495px;
     margin: 0px 10px;
     padding: 20px 30px;
 }
-.third-sections img{
-}
+
 .third-sections h4{
    margin: 10px 0px;
 }
@@ -228,21 +239,28 @@ footer{
 }
 
 .input-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     margin: 0px 40px 40px 40px;
     background-color: #fff59d83;
     padding: 70px 0px 70px 100px;
 }
-.input-area input{
+.input-flex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.input-flex input{
     background-color: #dadada;
     border: none;
     width: 250px;
-    padding: 10px 10px;
+    padding: 12px 10px;
     margin-left: 10px;
+    border-radius: 5px 0px 0px 5px;
 }
+.input-flex button{
+    border-radius: 0px 5px 5px 0px;
+}
+
 .second-footer img{
     width: 100%;
     margin: 40px 0px 0px 0px;
